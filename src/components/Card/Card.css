@@ -1,0 +1,17 @@
+.box{
+  width: 48%;
+}
+
+.item-img{
+  width: 300px;
+}
+
+.status{
+  font-size: 20px;
+  line-height: 100%;
+  opacity: 0.8;
+}
+
+.box:not(:nth-child(even)){
+  margin-right: 40px;
+}
